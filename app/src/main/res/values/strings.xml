@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">QlakP4Music</string>
+
+    <string name="category_play">Play</string>
+    <string name="category_library">Library</string>
+    <string name="category_market">Market</string>
+    <string name="category_about">About</string>
+    <string name="category_payment">Payment</string>
+
+    <string name="addtrack">You have selected \'\'Add your own Track\'\' option. This extension allows you to add up to 3 tracks alongside with tabs to the app, that you can later exchange with your friends. </string>
+    <string name="API">(After pressing BuyButton, APP should use either PayU REST API or MPL Library from PayPal.)</string>
+
+    <string name="naglowek_main">Welcome to the Riff teaching app! \nPlease choose where to start:</string>
+    <string name="naglowek_play">Use tabs below to master it!</string>
+    <string name="naglowek_library">The Library contains all the Tabs that you own. \nTry going through all of your favourite solos to learn more about them!</string>
+    <string name="naglowek_about">Oh, so you are interested and want to learn more about this app? Good. You came to the right section!</string>
+    <string name="naglowek_market">Here you can get new tracks to expand your Library!</string>
+    <string name="naglowek_pay">Here you can complete payment for your order.</string>
+
+    <string name="about1">The app was created in order to gather the best Rock guitar solos in one place and to make them easy to learn, by providing the quick listening functionality alongside with the guitar tab. \nThis way you can practice your favourite solos on your own, then listen to them, if something sounds not right, or even play alongside with the track by simply pressing one button in the app.</string>
+    <string name="about_play">This activity lets you to hear the desired solo and check out its tabs.</string>
+    <string name="about_library">In this activity you can go through all of the tracks that you own: check the album covers or even learn some fun facts about the songs.</string>
+    <string name="about_market">Here you can get new tracks to expand your library.</string>
+
+    <string name="artist0">Default Artist - Default Name</string>
+
+    <string name="library_tracks_types"><b>Year: \nGenre: \nFrom: \nWho:</b></string>
+    <string name="library_title"><b>Artist</b></string>
+
+    <string name="facts"><b>Facts:</b></string>
+    <string name="defaultfact">This is a default temporary fact.</string>
+    <string name="fact1_1">Roger Waters wrote the lyrics. While many people thought the song was about drugs, Waters claims it is not. The lyrics are about what he felt like as a child when he was sick with a fever.</string>
+    <string name="fact1_2">Dave Gilmour wrote the music while he was working on a solo album in 1978. He brought it to The Wall sessions and Waters wrote lyrics for it.</string>
+    <string name="fact1_3">This was the last song Waters and Gilmour wrote together. In 1986 Waters left the band and felt there should be no Pink Floyd without him.</string>
+
+    <string name="fact2_1">When this song starts, it sounds like it is coming from an AM radio somewhere in the distance. It represents the distance between the listener and the music.</string>
+    <string name="fact2_2">This was a rare case of the Pink Floyd primary songwriters Roger Waters and David Gilmour mutually collaborating on a song - they rarely wrote together. </string>
+    <string name="fact2_3">This is one of the few songs Roger Waters continued to play at his shows after leaving Pink Floyd that David Gilmour helped him write.</string>
+
+    <string name="fact3_1">Paul McCartney wrote this song. It was inspired by his mother, Mary, who died when he was 14. Many people thought \'\'Mother Mary\'\' was a biblical reference when they heard it.</string>
+    <string name="fact3_2">John Lennon hated this song because of it\'s apparent Christian overtones. He made the comment before recording it, "And now we'd like to do Hark The Angels Come." </string>
+    <string name="fact3_3">The Beatles weren\'t the first to release this song - Aretha Franklin was. She recorded it in December 1969, and it was released on her album This Girl\'s In Love With You in January 1970, two months before The Beatles.</string>
+
+    <string name="fact4_1">This song is written from the perspective of a dying sheriff: \'\'Mama, take this badge off of me; I can\'t use it anymore; It\'s gettin\' dark, too dark for me to see; I feel like I\'m knockin\' on heaven\'s door\'\'.</string>
+    <string name="fact4_2">Guns N\' Roses covered this on their 1991 album, Use Your Illusion II. They played it in 1992 at a tribute concert for Freddie Mercury, the lead singer of Queen, who had died of AIDS. </string>
+    <string name="fact4_3">In October 2007, 1,730 guitarists in Shillong, India strummed this song for five minutes to set a world record for the largest ever guitar ensemble.</string>
+
+    <string name="fact5_1">This song is written from the perspective of a dying sheriff: \'\'Mama, take this badge off of me; I can\'t use it anymore; It\'s gettin\' dark, too dark for me to see; I feel like I\'m knockin\' on heaven\'s door\'\'.</string>
+    <string name="fact5_2">Guns N\' Roses covered this on their 1991 album, Use Your Illusion II. They played it in 1992 at a tribute concert for Freddie Mercury, the lead singer of Queen, who had died of AIDS. </string>
+    <string name="fact5_3">In October 2007, 1,730 guitarists in Shillong, India strummed this song for five minutes to set a world record for the largest ever guitar ensemble.</string>
+
+    <string name="the_hint"><b>HINT:</b></string>
+    <string name="hint1">Nothing beats regularly putting your hands on the guitar and practicing the latest lessons. Even 10 minutes a day can make difference!</string>
+    <string name="hint2">Try to practise both standing up and sitting down.</string>
+    <string name="hint3">Do not hook your left hand\'s thumb over the top of the fret board, it is a bad habit. It even has a name: "<i>Death Grip</i>".</string>
+    <string name="hint4">Do not try to rush. Always start slowly, get used to tempo and rhythm.</string>
+    <string name="hint5">When your muscles start to creak and the fingertips are stinging, take a break and relax for a while.</string>
+    <string name="hint6">Don’t be put off if things don’t sound right at first!</string>
+    <string name="hint7">It is always good idea to learn some music theory.</string>
+    <string name="hint8">Most of all though remember to always have fun when playing.</string>
+</resources>

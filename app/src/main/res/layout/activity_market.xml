@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    android:fillViewport="true"
+    tools:context="com.baza1234.qlakp4music.MarketActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/logobg"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/musicapplogobg"
+                android:scaleType="centerInside"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/marketlogo"
+                android:scaleType="centerInside"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:id="@+id/logoanimation"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/logo01"
+                android:scaleType="centerInside"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/naglowek"
+                android:layout_below="@+id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/naglowek_market"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"/>
+
+            <!-- Whole Market Window Here -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/naglowek"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="38dp"
+                android:orientation="horizontal">
+
+                <!-- Left Column -->
+                <LinearLayout
+                    android:id="@+id/leftcolumn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/position1"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition1cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/pink_floyd_the_wall"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition1status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusgreen"/>
+
+                        <TextView
+                            android:id="@+id/marketposition1artist"
+                            android:layout_toRightOf="@id/marketposition1cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Guns N Roses"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition1name"
+                            android:layout_below="@id/marketposition1artist"
+                            android:layout_toRightOf="@id/marketposition1cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Knockin On Heavens Door - Solo 1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/position2"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition2cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/pink_floyd_the_wall"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition2status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusgreen"/>
+
+                        <TextView
+                            android:id="@+id/marketposition2artist"
+                            android:layout_toRightOf="@id/marketposition2cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Guns N Roses"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition2name"
+                            android:layout_below="@id/marketposition2artist"
+                            android:layout_toRightOf="@id/marketposition2cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Knockin On Heavens Door - Solo 1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/position3"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition3cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/pink_floyd_the_wall"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition3status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusgreen"/>
+
+                        <TextView
+                            android:id="@+id/marketposition3artist"
+                            android:layout_toRightOf="@id/marketposition3cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Guns N Roses"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition3name"
+                            android:layout_below="@id/marketposition3artist"
+                            android:layout_toRightOf="@id/marketposition3cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Knockin On Heavens Door - Solo 1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/position4"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition4cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/pink_floyd_the_wall"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition4status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusgreen"/>
+
+                        <TextView
+                            android:id="@+id/marketposition4artist"
+                            android:layout_toRightOf="@id/marketposition4cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Guns N Roses"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition4name"
+                            android:layout_below="@id/marketposition4artist"
+                            android:layout_toRightOf="@id/marketposition4cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Knockin On Heavens Door - Solo 1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!-- Right Column -->
+                <LinearLayout
+                    android:id="@+id/rightcolumn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/position5"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition5cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/pink_floyd_the_wall"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition5status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusgreen"/>
+
+                        <TextView
+                            android:id="@+id/marketposition5artist"
+                            android:layout_toRightOf="@id/marketposition5cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Guns N Roses"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition5name"
+                            android:layout_below="@id/marketposition5artist"
+                            android:layout_toRightOf="@id/marketposition5cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Knockin On Heavens Door - Solo 1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/position6"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition6cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/addmusic"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition6status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusyellow"/>
+
+                        <TextView
+                            android:id="@+id/marketposition6artist"
+                            android:layout_toRightOf="@id/marketposition6cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="You"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition6name"
+                            android:layout_below="@id/marketposition6artist"
+                            android:layout_toRightOf="@id/marketposition6cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Your Own Guitar Riff"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/position7"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition7cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/lynyrdskynyrd"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition7status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusred"/>
+
+                        <TextView
+                            android:id="@+id/marketposition7artist"
+                            android:layout_toRightOf="@id/marketposition7cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Lynyrd Skynyrd"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition7name"
+                            android:layout_below="@id/marketposition7artist"
+                            android:layout_toRightOf="@id/marketposition7cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Free Bird"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/position8"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/marketposition8cover"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="12dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/led_zeppelin"/>
+
+                        <ImageView
+                            android:id="@+id/marketposition8status"
+                            android:layout_width="145dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketstatusred"/>
+
+                        <TextView
+                            android:id="@+id/marketposition8artist"
+                            android:layout_toRightOf="@id/marketposition8cover"
+                            android:layout_width="60dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="2dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Led Zeppelin"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+
+                        <TextView
+                            android:id="@+id/marketposition8name"
+                            android:layout_below="@id/marketposition8artist"
+                            android:layout_toRightOf="@id/marketposition8cover"
+                            android:layout_width="60dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="2dp"
+                            android:gravity="center"
+                            android:text="Stairway To Heaven"
+                            android:textColor="#FFFFFF"
+                            android:textSize="9sp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Lower Bar -->
+            <ImageView
+                android:id="@+id/lowbar"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:src="@drawable/musicapplow"
+                android:scaleType="centerInside"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerHorizontal="true"/>
+
+            <!-- CHANGE ACTIVITY ICONS-->
+            <LinearLayout
+                android:id="@+id/hintview"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="200dp"
+                android:layout_height="35dp">
+
+                <ImageView
+                    android:id="@+id/play"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/playicon"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/homeicon"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/library"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/libraryicon"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Black Border Right and Left Lines -->
+        <ImageView
+            android:id="@+id/leftbar"
+            android:src="@drawable/musicappleftarrows"
+            android:layout_alignParentLeft="true"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/rightbar"
+            android:src="@drawable/musicapprightarrows"
+            android:layout_alignParentRight="true"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerInside" />
+    </RelativeLayout>
+</RelativeLayout>
